@@ -39,4 +39,12 @@
     .main img {
         display: none;
     }
+    .main h1 {
+        font-size: 3rem;
+        line-height: auto;
+        text-align: center;
+    }
+    .main h1::before {
+        left: -10px;
+    }
 }

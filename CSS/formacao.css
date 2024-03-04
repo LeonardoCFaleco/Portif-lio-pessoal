@@ -149,5 +149,16 @@
 @media (max-width: 800px) {
     .formacao {
         grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 20px 40px;
+    }
+    .formacao h2 {
+        font-size: 2.5rem;
+        max-width: 20ch;
+        line-height: auto;
+        text-align: center;
+    }
+    .cursos ul{
+        justify-content: center;
     }
 }

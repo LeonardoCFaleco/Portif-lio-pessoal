@@ -8,7 +8,8 @@
 }
 .header-menu{
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: center;
 }
 
@@ -16,7 +17,8 @@
     font-size: 1.125rem;
     font-family: 'Josefin Sans', sans-serif;
     color: var(--cor12);
-    position: relative;  
+    padding: 10px 20px;
+    display: block;
 }
 
 .header-menu a::after {
@@ -26,10 +28,21 @@
     width: 0;
     background: var(--cor12);
     margin-top: 4px;
-    position: absolute;
 }
 
 .header-menu a:hover::after {
     width: 100%;
     transition: 0.3s;
+}
+
+@media(max-width: 800px) {
+    .header {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+        place-content: center;
+    }
+    .header a {
+        background: var(--cor03);
+    }
 }

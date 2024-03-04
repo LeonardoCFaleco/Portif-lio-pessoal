@@ -89,3 +89,15 @@
     background: var(--cor01);
     border-radius: 5px;
 }
+
+@media (max-width:800px) {
+    .experiencia {
+        gap: 40px;
+        grid-template-columns: 1fr;
+        padding: 20px 40px;
+    }
+    .experiencia h2 {
+        font-size: 3rem;
+        max-width: 20ch;
+    }
+}

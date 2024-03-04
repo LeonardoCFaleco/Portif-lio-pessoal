@@ -50,3 +50,9 @@
     font-family: 'Josefin Sans', sans-serif;
     color: var(--cor08);
 }
+
+@media (max-width: 800px) {
+    .contato {
+        grid-template-columns: 1fr;
+    }
+}

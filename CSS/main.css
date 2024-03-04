@@ -32,3 +32,11 @@
     color: #191919;
 }
 
+@media(max-width: 800px) {
+    .main {
+        grid-template-columns: 1fr;
+    }
+    .main img {
+        display: none;
+    }
+}

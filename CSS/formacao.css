@@ -145,3 +145,9 @@
 .idiomas span {
     color: var(--cor07);
 }
+
+@media (max-width: 800px) {
+    .formacao {
+        grid-template-columns: 1fr;
+    }
+}

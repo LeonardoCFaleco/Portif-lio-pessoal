@@ -1,0 +1,91 @@
+.experiencia {
+    max-width: 1200px;
+    padding: 80px 20px;
+    margin: 0 auto;
+    display: grid;
+    gap: 140px;
+    grid-template-columns: 1fr 2fr;
+}
+
+.experiencia h2 {
+    font-size: 8rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
+    color: var(--cor05);
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 5ch;
+}
+
+.experiencia p {
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #191919;
+}
+
+.experiencia h3 {
+    margin-top: 80px;
+    font-size: 4.5rem;
+    line-height: 1.875rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor10);
+}
+
+.experiencia .projetos {
+    margin-top: 40px;
+    background: var(--cor03);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 20px;
+    border: 1px solid var(--cor04);
+    border-radius: 5px;
+    position: relative;
+}
+
+.experiencia .projetos::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    background: url("../img/Detalhe_barra.svg") no-repeat center;
+    position: absolute;
+    top: 15px;
+    left: -5px;
+}
+
+.experiencia .projetos h4, .experiencia .projetos span {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #191919;
+}
+
+.experiencia .projetos p {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: #191919;
+}
+
+.experiencia .projetos span {
+    justify-self: end;
+}
+
+.experiencia .projetos ul {
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor13);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: end;
+}
+
+.experiencia .projetos li {
+    padding: 5px 10px;
+    background: var(--cor01);
+    border-radius: 5px;
+}

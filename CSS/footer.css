@@ -1,0 +1,52 @@
+.contato-bg {
+    background: var(--cor13);
+    position: relative;
+}
+
+.contato-bg::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 79px;
+    position: absolute;
+    background: url("../img/detalhe.svg");
+    left: 190px;
+    top: -30px;
+}
+
+.contato {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 140px;
+    align-items: center;
+}
+
+.contato p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.875rem;
+    color: var(--cor06);
+    margin-top: 60px;
+    max-width: 28ch;
+}
+
+.contato ul {
+    margin-top: 60px;
+    font-size: 2.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 2.5rem;
+    color: var(--cor01);
+}
+
+.contato li {
+    margin-bottom: 30px;
+}
+
+.contato span {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor08);
+}

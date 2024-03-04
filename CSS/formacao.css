@@ -1,0 +1,147 @@
+.formacao-bg {
+    background: #191919;
+}
+.formacao {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 140px;
+}
+
+.formacao h2 {
+    font-size: 7rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1;
+    color: var(--cor13);
+    text-transform: uppercase;
+    word-break: break-all;
+}
+
+.formacao p {
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.875rem;
+    color: var(--cor08);
+}
+
+.formacao span {
+    display: inline-block;
+    color: var(--cor01);
+}
+
+.cursos ul {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 53px;
+}
+
+.cursos li {
+    width: 160px;
+    padding: 20px;
+    background: var(--cor13);
+    border-radius: 5px;
+    position: relative;
+}
+
+.cursos li::before {
+    content: "";
+    display: block;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    background: url("../img/Detalhe_barra.svg") no-repeat center;
+    left: -5px;
+    top: 50px;
+}
+
+.cursos li span {
+    font-size: .875rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.25rem;
+    color: var(--cor08);
+}
+
+.cursos li h3 {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5625rem;
+    font-weight: bold;
+    margin-top: 10px;
+    color: var(--cor01);
+}
+
+.cursos li p {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5625rem;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.formacao h4 {
+    font-size: .875rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor07);
+    margin-top: 60px;
+    position: relative;
+}
+
+#cursos::before {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 17px;
+    position: absolute;
+    background: url("../img/Cursos.svg") no-repeat center;
+    left: -28px;
+    top: -2px;
+}
+
+.intensivos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.intensivos p {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor01);
+    margin-bottom: 0px;
+}
+
+.intensivos p:first-child {
+    margin-top: 30px;
+}
+
+.intensivos span {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: var(--cor07);    
+    place-self: end;
+}
+
+.idiomas h4::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url("../img/Idioma.svg") no-repeat center;
+    left: -29px;
+    top: -3px;
+}
+
+.idiomas p {
+    font-size: 1.125rem;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--cor01);
+}
+
+.idiomas span {
+    color: var(--cor07);
+}
